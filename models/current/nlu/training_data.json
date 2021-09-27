@@ -1,0 +1,6395 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "Can you book an event with barcha on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "mad",
+            "entity": "email"
+          },
+          {
+            "start": 35,
+            "end": 38,
+            "value": "dan",
+            "entity": "email"
+          },
+          {
+            "start": 42,
+            "end": 53,
+            "value": "next friday",
+            "entity": "date"
+          },
+          {
+            "start": 64,
+            "end": 81,
+            "value": "school activities",
+            "entity": "description"
+          }
+        ],
+        "text": "Can you book an event with mad and dan on next friday regarding school activities"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "madw",
+            "entity": "email"
+          },
+          {
+            "start": 32,
+            "end": 35,
+            "value": "sam",
+            "entity": "email"
+          },
+          {
+            "start": 40,
+            "end": 44,
+            "value": "sdan",
+            "entity": "email"
+          },
+          {
+            "start": 48,
+            "end": 59,
+            "value": "next friday",
+            "entity": "date"
+          },
+          {
+            "start": 70,
+            "end": 83,
+            "value": "we activities",
+            "entity": "description"
+          },
+          {
+            "start": 88,
+            "end": 98,
+            "value": "30 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 104,
+            "end": 107,
+            "value": "5pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you book an event with madw,sam and sdan on next friday regarding we activities for 30 minutes from 5pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "Can you book an event with carol today"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 43,
+            "end": 53,
+            "value": "30 minutes",
+            "entity": "duration"
+          }
+        ],
+        "text": "Can book a meeting tomorrow with carol for 30 minutes"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "45 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 43,
+            "end": 47,
+            "value": "emma",
+            "entity": "email"
+          },
+          {
+            "start": 48,
+            "end": 53,
+            "value": "chase",
+            "entity": "email"
+          },
+          {
+            "start": 58,
+            "end": 63,
+            "value": "harry",
+            "entity": "email"
+          },
+          {
+            "start": 67,
+            "end": 75,
+            "value": "2nd june",
+            "entity": "date"
+          },
+          {
+            "start": 90,
+            "end": 96,
+            "value": "agenda",
+            "entity": "description"
+          }
+        ],
+        "text": "Can you book a meeting for 45 minutes with emma,chase and harry on 2nd june to talk about agenda"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "45 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 43,
+            "end": 48,
+            "value": "wemma",
+            "entity": "email"
+          },
+          {
+            "start": 49,
+            "end": 55,
+            "value": "fchase",
+            "entity": "email"
+          },
+          {
+            "start": 60,
+            "end": 66,
+            "value": "pharry",
+            "entity": "email"
+          },
+          {
+            "start": 70,
+            "end": 83,
+            "value": "23rd jan 2020",
+            "entity": "date"
+          },
+          {
+            "start": 101,
+            "end": 107,
+            "value": "agenda",
+            "entity": "description"
+          }
+        ],
+        "text": "Can you book a meeting for 45 minutes with wemma,fchase and pharry on 23rd jan 2020 to discuss about agenda"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 52,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "would you book an event with barcha on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "mad",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 40,
+            "value": "dan",
+            "entity": "email"
+          },
+          {
+            "start": 44,
+            "end": 55,
+            "value": "next friday",
+            "entity": "date"
+          },
+          {
+            "start": 66,
+            "end": 83,
+            "value": "school activities",
+            "entity": "description"
+          }
+        ],
+        "text": "would you book an event with mad and dan on next friday regarding school activities"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "madw",
+            "entity": "email"
+          },
+          {
+            "start": 34,
+            "end": 37,
+            "value": "sam",
+            "entity": "email"
+          },
+          {
+            "start": 42,
+            "end": 46,
+            "value": "sdan",
+            "entity": "email"
+          },
+          {
+            "start": 50,
+            "end": 61,
+            "value": "next friday",
+            "entity": "date"
+          },
+          {
+            "start": 72,
+            "end": 85,
+            "value": "we activities",
+            "entity": "description"
+          },
+          {
+            "start": 90,
+            "end": 100,
+            "value": "30 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 106,
+            "end": 109,
+            "value": "5pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "would you book an event with madw,sam and sdan on next friday regarding we activities for 30 minutes from 5pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 35,
+            "end": 40,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "would you book an event with carol today"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 35,
+            "end": 40,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 45,
+            "end": 55,
+            "value": "30 minutes",
+            "entity": "duration"
+          }
+        ],
+        "text": "would book a meeting tomorrow with carol for 30 minutes"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "45 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 45,
+            "end": 49,
+            "value": "emma",
+            "entity": "email"
+          },
+          {
+            "start": 50,
+            "end": 55,
+            "value": "chase",
+            "entity": "email"
+          },
+          {
+            "start": 60,
+            "end": 65,
+            "value": "harry",
+            "entity": "email"
+          },
+          {
+            "start": 69,
+            "end": 77,
+            "value": "2nd june",
+            "entity": "date"
+          },
+          {
+            "start": 92,
+            "end": 98,
+            "value": "agenda",
+            "entity": "description"
+          }
+        ],
+        "text": "would you book a meeting for 45 minutes with emma,chase and harry on 2nd june to talk about agenda"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "45 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 45,
+            "end": 50,
+            "value": "wemma",
+            "entity": "email"
+          },
+          {
+            "start": 51,
+            "end": 57,
+            "value": "fchase",
+            "entity": "email"
+          },
+          {
+            "start": 62,
+            "end": 68,
+            "value": "pharry",
+            "entity": "email"
+          },
+          {
+            "start": 72,
+            "end": 85,
+            "value": "23rd jan 2020",
+            "entity": "date"
+          },
+          {
+            "start": 103,
+            "end": 109,
+            "value": "agenda",
+            "entity": "description"
+          }
+        ],
+        "text": "would you book a meeting for 45 minutes with wemma,fchase and pharry on 23rd jan 2020 to discuss about agenda"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "Can you book an appointment with barcha on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "mad",
+            "entity": "email"
+          },
+          {
+            "start": 41,
+            "end": 44,
+            "value": "dan",
+            "entity": "email"
+          },
+          {
+            "start": 48,
+            "end": 59,
+            "value": "next friday",
+            "entity": "date"
+          },
+          {
+            "start": 70,
+            "end": 87,
+            "value": "school activities",
+            "entity": "description"
+          }
+        ],
+        "text": "Can you book an appointment with mad and dan on next friday regarding school activities"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 37,
+            "value": "madw",
+            "entity": "email"
+          },
+          {
+            "start": 38,
+            "end": 41,
+            "value": "sam",
+            "entity": "email"
+          },
+          {
+            "start": 46,
+            "end": 50,
+            "value": "sdan",
+            "entity": "email"
+          },
+          {
+            "start": 54,
+            "end": 65,
+            "value": "next friday",
+            "entity": "date"
+          },
+          {
+            "start": 76,
+            "end": 89,
+            "value": "we activities",
+            "entity": "description"
+          },
+          {
+            "start": 94,
+            "end": 104,
+            "value": "30 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 110,
+            "end": 113,
+            "value": "5pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you book an appointment with madw,sam and sdan on next friday regarding we activities for 30 minutes from 5pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 44,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "Can you book an appointment with carol today"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 43,
+            "end": 53,
+            "value": "30 minutes",
+            "entity": "duration"
+          }
+        ],
+        "text": "Can book a meeting tomorrow with carol for 30 minutes"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "45 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 43,
+            "end": 47,
+            "value": "emma",
+            "entity": "email"
+          },
+          {
+            "start": 48,
+            "end": 53,
+            "value": "chase",
+            "entity": "email"
+          },
+          {
+            "start": 58,
+            "end": 63,
+            "value": "harry",
+            "entity": "email"
+          },
+          {
+            "start": 67,
+            "end": 75,
+            "value": "2nd june",
+            "entity": "date"
+          },
+          {
+            "start": 90,
+            "end": 96,
+            "value": "agenda",
+            "entity": "description"
+          }
+        ],
+        "text": "Can you book a meeting for 45 minutes with emma,chase and harry on 2nd june to talk about agenda"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "45 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 43,
+            "end": 48,
+            "value": "wemma",
+            "entity": "email"
+          },
+          {
+            "start": 49,
+            "end": 55,
+            "value": "fchase",
+            "entity": "email"
+          },
+          {
+            "start": 60,
+            "end": 66,
+            "value": "pharry",
+            "entity": "email"
+          },
+          {
+            "start": 70,
+            "end": 83,
+            "value": "23rd jan 2020",
+            "entity": "date"
+          },
+          {
+            "start": 101,
+            "end": 107,
+            "value": "agenda",
+            "entity": "description"
+          }
+        ],
+        "text": "Can you book a meeting for 45 minutes with wemma,fchase and pharry on 23rd jan 2020 to discuss about agenda"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 45,
+            "end": 58,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "would you book an appointment with barcha on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 35,
+            "end": 38,
+            "value": "mad",
+            "entity": "email"
+          },
+          {
+            "start": 43,
+            "end": 46,
+            "value": "dan",
+            "entity": "email"
+          },
+          {
+            "start": 50,
+            "end": 61,
+            "value": "next friday",
+            "entity": "date"
+          },
+          {
+            "start": 72,
+            "end": 89,
+            "value": "school activities",
+            "entity": "description"
+          }
+        ],
+        "text": "would you book an appointment with mad and dan on next friday regarding school activities"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 35,
+            "end": 39,
+            "value": "madw",
+            "entity": "email"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "sam",
+            "entity": "email"
+          },
+          {
+            "start": 48,
+            "end": 52,
+            "value": "sdan",
+            "entity": "email"
+          },
+          {
+            "start": 56,
+            "end": 67,
+            "value": "next friday",
+            "entity": "date"
+          },
+          {
+            "start": 78,
+            "end": 91,
+            "value": "we activities",
+            "entity": "description"
+          },
+          {
+            "start": 96,
+            "end": 106,
+            "value": "30 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 112,
+            "end": 115,
+            "value": "5pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "would you book an appointment with madw,sam and sdan on next friday regarding we activities for 30 minutes from 5pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 41,
+            "end": 46,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "would you book an appointment with carol today"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 35,
+            "end": 40,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 45,
+            "end": 55,
+            "value": "30 minutes",
+            "entity": "duration"
+          }
+        ],
+        "text": "would book a meeting tomorrow with carol for 30 minutes"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "45 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 45,
+            "end": 49,
+            "value": "emma",
+            "entity": "email"
+          },
+          {
+            "start": 50,
+            "end": 55,
+            "value": "chase",
+            "entity": "email"
+          },
+          {
+            "start": 60,
+            "end": 65,
+            "value": "harry",
+            "entity": "email"
+          },
+          {
+            "start": 69,
+            "end": 77,
+            "value": "2nd june",
+            "entity": "date"
+          },
+          {
+            "start": 92,
+            "end": 98,
+            "value": "agenda",
+            "entity": "description"
+          }
+        ],
+        "text": "would you book a meeting for 45 minutes with emma,chase and harry on 2nd june to talk about agenda"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "45 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 45,
+            "end": 50,
+            "value": "wemma",
+            "entity": "email"
+          },
+          {
+            "start": 51,
+            "end": 57,
+            "value": "fchase",
+            "entity": "email"
+          },
+          {
+            "start": 62,
+            "end": 68,
+            "value": "pharry",
+            "entity": "email"
+          },
+          {
+            "start": 72,
+            "end": 85,
+            "value": "23rd jan 2020",
+            "entity": "date"
+          },
+          {
+            "start": 103,
+            "end": 109,
+            "value": "agenda",
+            "entity": "description"
+          }
+        ],
+        "text": "would you book a meeting for 45 minutes with wemma,fchase and pharry on 23rd jan 2020 to discuss about agenda"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 41,
+            "end": 54,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "Can you schedule an event with barcha on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "35 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 39,
+            "end": 46,
+            "value": "charles",
+            "entity": "email"
+          },
+          {
+            "start": 47,
+            "end": 51,
+            "value": "sena",
+            "entity": "email"
+          },
+          {
+            "start": 56,
+            "end": 60,
+            "value": "puru",
+            "entity": "email"
+          },
+          {
+            "start": 71,
+            "end": 77,
+            "value": "rewerw",
+            "entity": "description"
+          },
+          {
+            "start": 81,
+            "end": 91,
+            "value": "3rd august",
+            "entity": "date"
+          }
+        ],
+        "text": "Schedule a meeting for 35 minutes with charles,sena and puru regarding rewerw on 3rd august"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "abhi",
+            "entity": "email"
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": "5th dec",
+            "entity": "date"
+          },
+          {
+            "start": 52,
+            "end": 57,
+            "value": "hekou",
+            "entity": "description"
+          }
+        ],
+        "text": "Create a meeting with abhi on 5th dec to talk about hekou"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "mad",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 42,
+            "value": "dan",
+            "entity": "email"
+          },
+          {
+            "start": 46,
+            "end": 57,
+            "value": "next friday",
+            "entity": "date"
+          },
+          {
+            "start": 68,
+            "end": 85,
+            "value": "school activities",
+            "entity": "description"
+          }
+        ],
+        "text": "Can you schedule an event with mad and dan on next friday regarding school activities"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "madw",
+            "entity": "email"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "sam",
+            "entity": "email"
+          },
+          {
+            "start": 44,
+            "end": 48,
+            "value": "sdan",
+            "entity": "email"
+          },
+          {
+            "start": 52,
+            "end": 63,
+            "value": "next friday",
+            "entity": "date"
+          },
+          {
+            "start": 74,
+            "end": 87,
+            "value": "we activities",
+            "entity": "description"
+          },
+          {
+            "start": 92,
+            "end": 102,
+            "value": "30 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 108,
+            "end": 111,
+            "value": "5pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you schedule an event with madw,sam and sdan on next friday regarding we activities for 30 minutes from 5pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 42,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "Can you schedule an event with carol today"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 37,
+            "end": 42,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 47,
+            "end": 57,
+            "value": "30 minutes",
+            "entity": "duration"
+          }
+        ],
+        "text": "Can schedule a meeting tomorrow with carol for 30 minutes"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 41,
+            "value": "45 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 47,
+            "end": 51,
+            "value": "emma",
+            "entity": "email"
+          },
+          {
+            "start": 52,
+            "end": 57,
+            "value": "chase",
+            "entity": "email"
+          },
+          {
+            "start": 62,
+            "end": 67,
+            "value": "harry",
+            "entity": "email"
+          },
+          {
+            "start": 71,
+            "end": 79,
+            "value": "2nd june",
+            "entity": "date"
+          },
+          {
+            "start": 94,
+            "end": 100,
+            "value": "agenda",
+            "entity": "description"
+          }
+        ],
+        "text": "Can you schedule a meeting for 45 minutes with emma,chase and harry on 2nd june to talk about agenda"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 41,
+            "value": "45 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 47,
+            "end": 52,
+            "value": "wemma",
+            "entity": "email"
+          },
+          {
+            "start": 53,
+            "end": 59,
+            "value": "fchase",
+            "entity": "email"
+          },
+          {
+            "start": 64,
+            "end": 70,
+            "value": "pharry",
+            "entity": "email"
+          },
+          {
+            "start": 74,
+            "end": 87,
+            "value": "23rd jan 2020",
+            "entity": "date"
+          },
+          {
+            "start": 105,
+            "end": 111,
+            "value": "agenda",
+            "entity": "description"
+          }
+        ],
+        "text": "Can you schedule a meeting for 45 minutes with wemma,fchase and pharry on 23rd jan 2020 to discuss about agenda"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "would you schedule an event with barcha on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "mad",
+            "entity": "email"
+          },
+          {
+            "start": 41,
+            "end": 44,
+            "value": "dan",
+            "entity": "email"
+          },
+          {
+            "start": 48,
+            "end": 59,
+            "value": "next friday",
+            "entity": "date"
+          },
+          {
+            "start": 70,
+            "end": 87,
+            "value": "school activities",
+            "entity": "description"
+          }
+        ],
+        "text": "would you schedule an event with mad and dan on next friday regarding school activities"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 37,
+            "value": "madw",
+            "entity": "email"
+          },
+          {
+            "start": 38,
+            "end": 41,
+            "value": "sam",
+            "entity": "email"
+          },
+          {
+            "start": 46,
+            "end": 50,
+            "value": "sdan",
+            "entity": "email"
+          },
+          {
+            "start": 54,
+            "end": 65,
+            "value": "next friday",
+            "entity": "date"
+          },
+          {
+            "start": 76,
+            "end": 89,
+            "value": "we activities",
+            "entity": "description"
+          },
+          {
+            "start": 94,
+            "end": 104,
+            "value": "30 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 110,
+            "end": 113,
+            "value": "5pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "would you schedule an event with madw,sam and sdan on next friday regarding we activities for 30 minutes from 5pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 44,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "would you schedule an event with carol today"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 39,
+            "end": 44,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "value": "30 minutes",
+            "entity": "duration"
+          }
+        ],
+        "text": "would schedule a meeting tomorrow with carol for 30 minutes"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 43,
+            "value": "45 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 49,
+            "end": 53,
+            "value": "emma",
+            "entity": "email"
+          },
+          {
+            "start": 54,
+            "end": 59,
+            "value": "chase",
+            "entity": "email"
+          },
+          {
+            "start": 64,
+            "end": 69,
+            "value": "harry",
+            "entity": "email"
+          },
+          {
+            "start": 73,
+            "end": 81,
+            "value": "2nd june",
+            "entity": "date"
+          },
+          {
+            "start": 96,
+            "end": 102,
+            "value": "agenda",
+            "entity": "description"
+          }
+        ],
+        "text": "would you schedule a meeting for 45 minutes with emma,chase and harry on 2nd june to talk about agenda"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 43,
+            "value": "45 minutes",
+            "entity": "duration"
+          },
+          {
+            "start": 49,
+            "end": 54,
+            "value": "wemma",
+            "entity": "email"
+          },
+          {
+            "start": 55,
+            "end": 61,
+            "value": "fchase",
+            "entity": "email"
+          },
+          {
+            "start": 66,
+            "end": 72,
+            "value": "pharry",
+            "entity": "email"
+          },
+          {
+            "start": 76,
+            "end": 89,
+            "value": "23rd jan 2020",
+            "entity": "date"
+          },
+          {
+            "start": 107,
+            "end": 113,
+            "value": "agenda",
+            "entity": "description"
+          }
+        ],
+        "text": "would you schedule a meeting for 45 minutes with wemma,fchase and pharry on 23rd jan 2020 to discuss about agenda"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "Can you book an event with barcha on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "cart",
+            "entity": "email"
+          },
+          {
+            "start": 35,
+            "end": 48,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 52,
+            "end": 60,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you book an event with cart on this thursday at 2 am ist?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "sandy",
+            "entity": "email"
+          },
+          {
+            "start": 36,
+            "end": 49,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 53,
+            "end": 57,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you book an event with sandy on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "potti",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "Can you book a meeting with potti on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "priyanka",
+            "entity": "email"
+          },
+          {
+            "start": 40,
+            "end": 53,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 57,
+            "end": 65,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you book a meeting with priyanka on this thursday at 2 am ist?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "greeshma",
+            "entity": "email"
+          },
+          {
+            "start": 40,
+            "end": 53,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 57,
+            "end": 61,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you book a meeting with greeshma on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "pissi",
+            "entity": "email"
+          },
+          {
+            "start": 42,
+            "end": 55,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 61,
+            "end": 64,
+            "value": "2pm",
+            "entity": "start_time"
+          },
+          {
+            "start": 68,
+            "end": 71,
+            "value": "4pm",
+            "entity": "end_time"
+          },
+          {
+            "start": 82,
+            "end": 85,
+            "value": "abc",
+            "entity": "description"
+          }
+        ],
+        "text": "Can you book an appointment with pissi on this thursday from 2pm to 4pm regarding abc?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 42,
+            "value": "pratyusha",
+            "entity": "email"
+          },
+          {
+            "start": 46,
+            "end": 59,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 63,
+            "end": 71,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you book an appointment with pratyusha on this thursday at 2 am ist?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 37,
+            "value": "taru",
+            "entity": "email"
+          },
+          {
+            "start": 41,
+            "end": 54,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 58,
+            "end": 62,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you book an appointment with taru on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "tarani",
+            "entity": "email"
+          },
+          {
+            "start": 41,
+            "end": 54,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "Can you schedule an event with tarani on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "shreyu",
+            "entity": "email"
+          },
+          {
+            "start": 41,
+            "end": 54,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 58,
+            "end": 66,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you schedule an event with shreyu on this thursday at 2 am ist?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 42,
+            "value": "shreya shri",
+            "entity": "email"
+          },
+          {
+            "start": 46,
+            "end": 59,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 63,
+            "end": 67,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you schedule an event with shreya shri on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "snigdha",
+            "entity": "email"
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "Can you schedule a meeting with snigdha on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "sanjana",
+            "entity": "email"
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 60,
+            "end": 68,
+            "value": "2 am ist",
+            "entity": "start_time"
+          },
+          {
+            "start": 73,
+            "end": 83,
+            "value": "45 minutes",
+            "entity": "end_time"
+          }
+        ],
+        "text": "Can you schedule a meeting with sanjana on this thursday at 2 am ist for 45 minutes?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 35,
+            "value": "joe",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 52,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 56,
+            "end": 60,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you schedule a meeting with joe on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 37,
+            "end": 42,
+            "value": "madhu",
+            "entity": "email"
+          },
+          {
+            "start": 46,
+            "end": 59,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "Can you schedule an appointment with madhu on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 37,
+            "end": 44,
+            "value": "neelima",
+            "entity": "email"
+          },
+          {
+            "start": 48,
+            "end": 61,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 65,
+            "end": 73,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you schedule an appointment with neelima on this thursday at 2 am ist?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 37,
+            "end": 43,
+            "value": "amulya",
+            "entity": "email"
+          },
+          {
+            "start": 47,
+            "end": 60,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 64,
+            "end": 68,
+            "value": "6 pm",
+            "entity": "start_time"
+          },
+          {
+            "start": 74,
+            "end": 77,
+            "value": "8pm",
+            "entity": "end_time"
+          }
+        ],
+        "text": "Can you schedule an appointment with amulya on this thursday at 6 pm till 8pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "vansh",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "will you book an event with vansh on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "ansh",
+            "entity": "email"
+          },
+          {
+            "start": 36,
+            "end": 49,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "will you book an event with ansh on this thursday at 2 am ist?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "saransh",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 52,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 56,
+            "end": 60,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "will you book an event with saransh on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "abby",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "will you book a meeting with abby on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "gaby",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 54,
+            "end": 62,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "will you book a meeting with gaby on this thursday at 2 am ist?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "gilmer",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 52,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 56,
+            "end": 60,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "will you book a meeting with gilmer on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 34,
+            "end": 40,
+            "value": "doober",
+            "entity": "email"
+          },
+          {
+            "start": 44,
+            "end": 57,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "will you book an appointment with doober on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 34,
+            "end": 37,
+            "value": "abd",
+            "entity": "email"
+          },
+          {
+            "start": 41,
+            "end": 54,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 58,
+            "end": 66,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "will you book an appointment with abd on this thursday at 2 am ist?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 34,
+            "end": 38,
+            "value": "aron",
+            "entity": "email"
+          },
+          {
+            "start": 42,
+            "end": 55,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 59,
+            "end": 63,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "will you book an appointment with aron on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 38,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 42,
+            "end": 55,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "will you schedule an event with barcha on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 35,
+            "value": "sir",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 52,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "will you schedule an event with sir on this thursday at 2 am ist?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 37,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 41,
+            "end": 54,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 58,
+            "end": 62,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "will you schedule an event with carol on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "abd",
+            "entity": "email"
+          },
+          {
+            "start": 40,
+            "end": 53,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "will you schedule a meeting with abd on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 40,
+            "value": "hershey",
+            "entity": "email"
+          },
+          {
+            "start": 44,
+            "end": 57,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 61,
+            "end": 69,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "will you schedule a meeting with hershey on this thursday at 2 am ist?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 60,
+            "end": 64,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "will you schedule a meeting with barcha on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "melody",
+            "entity": "email"
+          },
+          {
+            "start": 48,
+            "end": 61,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "will you schedule an appointment with melody on this thursday?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 38,
+            "end": 41,
+            "value": "sir",
+            "entity": "email"
+          },
+          {
+            "start": 45,
+            "end": 58,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 62,
+            "end": 70,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "will you schedule an appointment with sir on this thursday at 2 am ist?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 38,
+            "end": 42,
+            "value": "aron",
+            "entity": "email"
+          },
+          {
+            "start": 46,
+            "end": 59,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 63,
+            "end": 67,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "will you schedule an appointment with aron on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 32,
+            "end": 45,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "add book an event with carol on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "sir",
+            "entity": "email"
+          },
+          {
+            "start": 30,
+            "end": 43,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 47,
+            "end": 55,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "add book an event with sir on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "aron",
+            "entity": "email"
+          },
+          {
+            "start": 31,
+            "end": 44,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 48,
+            "end": 52,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "add book an event with aron on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "sir",
+            "entity": "email"
+          },
+          {
+            "start": 31,
+            "end": 44,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "add book a meeting with sir on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "abd",
+            "entity": "email"
+          },
+          {
+            "start": 31,
+            "end": 44,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "add book a meeting with abd on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "sir",
+            "entity": "email"
+          },
+          {
+            "start": 31,
+            "end": 44,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 48,
+            "end": 52,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "add book a meeting with sir on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "aron",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "add book an appointment with aron on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 52,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "add book an appointment with barcha on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "hershey",
+            "entity": "email"
+          },
+          {
+            "start": 40,
+            "end": 53,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 57,
+            "end": 61,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "add book an appointment with hershey on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "hershey",
+            "entity": "email"
+          },
+          {
+            "start": 38,
+            "end": 51,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "add schedule an event with hershey on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "sir",
+            "entity": "email"
+          },
+          {
+            "start": 34,
+            "end": 47,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 51,
+            "end": 59,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "add schedule an event with sir on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "abd",
+            "entity": "email"
+          },
+          {
+            "start": 34,
+            "end": 47,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 51,
+            "end": 55,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "add schedule an event with abd on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "aron",
+            "entity": "email"
+          },
+          {
+            "start": 36,
+            "end": 49,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "add schedule a meeting with aron on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 54,
+            "end": 62,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "add schedule a meeting with carol on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 38,
+            "end": 51,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 55,
+            "end": 59,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "add schedule a meeting with barcha on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 42,
+            "end": 55,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "add schedule an appointment with carol on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 40,
+            "value": "hershey",
+            "entity": "email"
+          },
+          {
+            "start": 44,
+            "end": 57,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 61,
+            "end": 69,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "add schedule an appointment with hershey on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 37,
+            "value": "aron",
+            "entity": "email"
+          },
+          {
+            "start": 41,
+            "end": 54,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 58,
+            "end": 62,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "add schedule an appointment with aron on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "sir",
+            "entity": "email"
+          },
+          {
+            "start": 30,
+            "end": 43,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "set book an event with sir on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "abd",
+            "entity": "email"
+          },
+          {
+            "start": 30,
+            "end": 43,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 47,
+            "end": 55,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "set book an event with abd on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "hershey",
+            "entity": "email"
+          },
+          {
+            "start": 34,
+            "end": 47,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 51,
+            "end": 55,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "set book an event with hershey on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 34,
+            "end": 47,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "set book a meeting with barcha on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 33,
+            "end": 46,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 50,
+            "end": 58,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "set book a meeting with carol on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "sir",
+            "entity": "email"
+          },
+          {
+            "start": 31,
+            "end": 44,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 48,
+            "end": 52,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "set book a meeting with sir on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "melody",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 52,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "set book an appointment with melody on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 38,
+            "end": 51,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 55,
+            "end": 63,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "set book an appointment with carol on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "aron",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 54,
+            "end": 58,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "set book an appointment with aron on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "abd",
+            "entity": "email"
+          },
+          {
+            "start": 34,
+            "end": 47,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "set schedule an event with abd on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "sir",
+            "entity": "email"
+          },
+          {
+            "start": 34,
+            "end": 47,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 51,
+            "end": 59,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "set schedule an event with sir on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 36,
+            "end": 49,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 53,
+            "end": 57,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "set schedule an event with carol on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 38,
+            "end": 51,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "set schedule a meeting with barcha on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 54,
+            "end": 62,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "set schedule a meeting with carol on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "melody",
+            "entity": "email"
+          },
+          {
+            "start": 38,
+            "end": 51,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 55,
+            "end": 59,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "set schedule a meeting with melody on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 42,
+            "end": 55,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "set schedule an appointment with carol on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "abd",
+            "entity": "email"
+          },
+          {
+            "start": 40,
+            "end": 53,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 57,
+            "end": 65,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "set schedule an appointment with abd on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 60,
+            "end": 64,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "set schedule an appointment with barcha on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "30 minutes",
+            "entity": "start_time"
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "value": "anju",
+            "entity": "email"
+          },
+          {
+            "start": 47,
+            "end": 52,
+            "value": "4 feb",
+            "entity": "date"
+          }
+        ],
+        "text": "set an appointment for 30 minutes with anju on 4 feb"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "aron",
+            "entity": "email"
+          },
+          {
+            "start": 34,
+            "end": 47,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "create book an event with aron on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 35,
+            "end": 48,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 52,
+            "end": 60,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "create book an event with carol on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "hershey",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 54,
+            "end": 58,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "create book an event with hershey on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "create book a meeting with barcha on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "abd",
+            "entity": "email"
+          },
+          {
+            "start": 34,
+            "end": 47,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 51,
+            "end": 59,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "create book a meeting with abd on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 36,
+            "end": 49,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 53,
+            "end": 57,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "create book a meeting with carol on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 35,
+            "value": "sir",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 52,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "create book an appointment with sir on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 36,
+            "value": "aron",
+            "entity": "email"
+          },
+          {
+            "start": 40,
+            "end": 53,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 57,
+            "end": 65,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "create book an appointment with aron on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 37,
+            "value": "carol",
+            "entity": "email"
+          },
+          {
+            "start": 41,
+            "end": 54,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 58,
+            "end": 62,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "create book an appointment with carol on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "melody",
+            "entity": "email"
+          },
+          {
+            "start": 40,
+            "end": 53,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "create schedule an event with melody on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 40,
+            "end": 53,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 57,
+            "end": 65,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "create schedule an event with barcha on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "abd",
+            "entity": "email"
+          },
+          {
+            "start": 28,
+            "end": 41,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 45,
+            "end": 49,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "create an event with abd on this thursday at 6 pm?"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "hershey",
+            "entity": "email"
+          },
+          {
+            "start": 42,
+            "end": 55,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "create schedule a meeting with hershey on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "aron",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 52,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "create schedule a meeting with aron on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "aron",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 52,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 56,
+            "end": 60,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "create schedule a meeting with aron on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 36,
+            "end": 39,
+            "value": "sir",
+            "entity": "email"
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "value": "this thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "create schedule an appointment with sir on this thursday"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "barcha",
+            "entity": "email"
+          },
+          {
+            "start": 46,
+            "end": 59,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 63,
+            "end": 71,
+            "value": "2 am ist",
+            "entity": "start_time"
+          }
+        ],
+        "text": "create schedule an appointment with barcha on this thursday at 2 am ist"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 36,
+            "end": 39,
+            "value": "abd",
+            "entity": "email"
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "value": "this thursday",
+            "entity": "date"
+          },
+          {
+            "start": 60,
+            "end": 64,
+            "value": "6 pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "create schedule an appointment with abd on this thursday at 6 pm"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "30 minutes",
+            "entity": "start_time"
+          },
+          {
+            "start": 42,
+            "end": 46,
+            "value": "anju",
+            "entity": "email"
+          },
+          {
+            "start": 50,
+            "end": 55,
+            "value": "4 feb",
+            "entity": "date"
+          }
+        ],
+        "text": "create an appointment for 30 minutes with anju on 4 feb"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "anje",
+            "entity": "email"
+          }
+        ],
+        "text": "book a meeting with anje"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "schedule a meeting with abs"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "create a meeting with abs"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "add a meeting with abs"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 25,
+            "end": 29,
+            "value": "anje",
+            "entity": "email"
+          }
+        ],
+        "text": "book an appointment with anje"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "schedule an appointment with abs"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "create an appointment with abs"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 18,
+            "end": 21,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "add an event with abs"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "anje",
+            "entity": "email"
+          }
+        ],
+        "text": "book an event with anje"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "schedule an event with abs"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "create an event with abs"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 18,
+            "end": 21,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "add an event with abs"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "amogha",
+            "entity": "email"
+          },
+          {
+            "start": 39,
+            "end": 48,
+            "value": "heres der",
+            "entity": "description"
+          }
+        ],
+        "text": "add an event with amogha to talk about heres der"
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "4th may",
+            "entity": "date"
+          },
+          {
+            "start": 27,
+            "end": 30,
+            "value": "5pm",
+            "entity": "start_time"
+          },
+          {
+            "start": 41,
+            "end": 56,
+            "value": "businesss talks",
+            "entity": "description"
+          }
+        ],
+        "text": "Could we meet on4th may at 5pm regarding businesss talks."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 20,
+            "end": 33,
+            "value": "2nd september",
+            "entity": "date"
+          },
+          {
+            "start": 37,
+            "end": 40,
+            "value": "8pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Would abc be free on2nd september at 8pm for a party."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 38,
+            "value": "drivers license",
+            "entity": "description"
+          },
+          {
+            "start": 44,
+            "end": 48,
+            "value": "zain",
+            "entity": "email"
+          },
+          {
+            "start": 52,
+            "end": 60,
+            "value": "march 27",
+            "entity": "date"
+          }
+        ],
+        "text": "Set an appointment for drivers license with zain on march 27 at [6am] (start_time)."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 25,
+            "end": 28,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 54,
+            "end": 70,
+            "value": "adding new rules",
+            "entity": "description"
+          }
+        ],
+        "text": "Organise an meeting with abc on (date time) regarding adding new rules."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 25,
+            "end": 28,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 32,
+            "end": 41,
+            "value": "4th april",
+            "entity": "date"
+          },
+          {
+            "start": 45,
+            "end": 48,
+            "value": "9pm",
+            "entity": "start_time"
+          },
+          {
+            "start": 59,
+            "end": 75,
+            "value": "adding new rules",
+            "entity": "description"
+          }
+        ],
+        "text": "Organise an meeting with abc on 4th april at 9pm regarding adding new rules."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "kiki",
+            "entity": "email"
+          },
+          {
+            "start": 32,
+            "end": 44,
+            "value": "8th november",
+            "entity": "date"
+          }
+        ],
+        "text": "Arrange an meeting with kiki on 8th november."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "6th july",
+            "entity": "date"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "7pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can abc attend a meeting on 6th july at 7pm."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "kikki",
+            "entity": "email"
+          },
+          {
+            "start": 36,
+            "end": 48,
+            "value": "6th november",
+            "entity": "date"
+          }
+        ],
+        "text": "Arrange an appointment with kikkion 6th november."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 31,
+            "end": 39,
+            "value": "6th july",
+            "entity": "date"
+          },
+          {
+            "start": 43,
+            "end": 46,
+            "value": "5am",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Arrange an schedule withabc on 6th july at 5am."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "Arrange an event with abc on(date time)."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "6th july",
+            "entity": "date"
+          }
+        ],
+        "text": "Is abc free on 6th july if so schedule a meeting with her."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "may 7",
+            "entity": "date"
+          }
+        ],
+        "text": "Is [abc] (email)free on may 7 if so set a meeting with her."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 15,
+            "end": 20,
+            "value": "dec 9",
+            "entity": "date"
+          }
+        ],
+        "text": "Is abc free on dec 9 if so arrange a appointment with her."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 17,
+            "end": 32,
+            "value": "drivers license",
+            "entity": "description"
+          },
+          {
+            "start": 36,
+            "end": 44,
+            "value": "6th july",
+            "entity": "date"
+          },
+          {
+            "start": 50,
+            "end": 55,
+            "value": "niall",
+            "entity": "email"
+          }
+        ],
+        "text": "Set an event for drivers license on 6th july with niall."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 18,
+            "end": 21,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 25,
+            "end": 32,
+            "value": "june 26",
+            "entity": "date"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "4pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Need an event withabc on june 26 at 4pm."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 31,
+            "end": 38,
+            "value": "june 16",
+            "entity": "date"
+          },
+          {
+            "start": 42,
+            "end": 48,
+            "value": "3:30pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Need an appointment withabc on june 16 at 3:30pm."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 28,
+            "end": 37,
+            "value": "october 8",
+            "entity": "date"
+          },
+          {
+            "start": 41,
+            "end": 44,
+            "value": "8am",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Need an schedule withabc on october 8 at 8am."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 27,
+            "end": 38,
+            "value": "november 15",
+            "entity": "date"
+          },
+          {
+            "start": 42,
+            "end": 45,
+            "value": "7pm",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Need an meeting withabc on november 15 at 7pm."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "march 17",
+            "entity": "date"
+          }
+        ],
+        "text": "Is abc free on march 17 if so add a appointment with her."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "may 13",
+            "entity": "date"
+          }
+        ],
+        "text": "Is [abc] (email)free on may 13 if so add a meeting with her."
+      },
+      {
+        "intent": "create_event",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "abc",
+            "entity": "email"
+          },
+          {
+            "start": 15,
+            "end": 24,
+            "value": "august 24",
+            "entity": "date"
+          }
+        ],
+        "text": "Is abc free on august 24 if so add a schedule with her."
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "delete the event with abs"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "anje",
+            "entity": "email"
+          }
+        ],
+        "text": "remove the event with anje"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "cancel the event with abs"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "drop the event with abs"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "call off the event with abs"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 34,
+            "end": 37,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "delete the event on march 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 42,
+            "end": 47,
+            "value": "addbc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you delete the event on march 10 with addbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 43,
+            "end": 47,
+            "value": "abcd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you delete the event on march 10 with abcd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 44,
+            "end": 48,
+            "value": "awbc",
+            "entity": "email"
+          }
+        ],
+        "text": "would you delete the event on march 10 with awbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 41,
+            "end": 45,
+            "value": "abyc",
+            "entity": "email"
+          }
+        ],
+        "text": "please delete the event on march 10 with abyc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 37,
+            "end": 45,
+            "value": "8th sept",
+            "entity": "date"
+          }
+        ],
+        "text": "delete the event from my calendar on 8th sept"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 34,
+            "end": 37,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "remove the event on march 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 42,
+            "end": 47,
+            "value": "ad bc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you remove the event on march 10 with ad bc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 43,
+            "end": 47,
+            "value": "abcd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you remove the event on march 10 with abcd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 44,
+            "end": 48,
+            "value": "awbc",
+            "entity": "email"
+          }
+        ],
+        "text": "would you remove the event on march 10 with awbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 41,
+            "end": 45,
+            "value": "abyc",
+            "entity": "email"
+          }
+        ],
+        "text": "please remove the event on march 10 with abyc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 37,
+            "end": 45,
+            "value": "8th Sept",
+            "entity": "date"
+          }
+        ],
+        "text": "remove the event from my calendar on 8th Sept"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "call off the event on march 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 44,
+            "end": 49,
+            "value": "ad bc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you call off the event on march 10 with ad bc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 45,
+            "end": 49,
+            "value": "abcd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you call off the event on march 10 with abcd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 46,
+            "end": 50,
+            "value": "wybc",
+            "entity": "email"
+          }
+        ],
+        "text": "would you call off the event on march 10 with wybc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 43,
+            "end": 48,
+            "value": "abyyc",
+            "entity": "email"
+          }
+        ],
+        "text": "please call off the event on march 10 with abyyc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 39,
+            "end": 46,
+            "value": "8th oct",
+            "entity": "date"
+          }
+        ],
+        "text": "call off the event from my calendar on 8th oct"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 34,
+            "end": 37,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "cancel the event on march 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 42,
+            "end": 49,
+            "value": "adyd bc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you cancel the event on march 10 with adyd bc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 43,
+            "end": 48,
+            "value": "abycd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you cancel the event on march 10 with abycd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "june 11",
+            "entity": "date"
+          },
+          {
+            "start": 43,
+            "end": 49,
+            "value": "aw rbc",
+            "entity": "email"
+          }
+        ],
+        "text": "would you cancel the event on june 11 with aw rbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "july 1",
+            "entity": "date"
+          },
+          {
+            "start": 39,
+            "end": 44,
+            "value": "abryc",
+            "entity": "email"
+          }
+        ],
+        "text": "please cancel the event on july 1 with abryc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 37,
+            "end": 46,
+            "value": "18th sept",
+            "entity": "date"
+          }
+        ],
+        "text": "cancel the event from my calendar on 18th sept"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "feb 10",
+            "entity": "date"
+          },
+          {
+            "start": 30,
+            "end": 33,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "drop the event on feb 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "jan 10",
+            "entity": "date"
+          },
+          {
+            "start": 38,
+            "end": 46,
+            "value": "addrrrbc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you drop the event on jan 10 with addrrrbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "march 4",
+            "entity": "date"
+          },
+          {
+            "start": 40,
+            "end": 44,
+            "value": "abcd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you drop the event on march 4 with abcd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "march 30",
+            "entity": "date"
+          },
+          {
+            "start": 42,
+            "end": 48,
+            "value": "awb45c",
+            "entity": "email"
+          }
+        ],
+        "text": "would you drop the event on march 30 with awb45c from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 39,
+            "end": 48,
+            "value": "abyss fsc",
+            "entity": "email"
+          }
+        ],
+        "text": "please drop the event on march 10 with abyss fsc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "8th sept",
+            "entity": "date"
+          }
+        ],
+        "text": "drop the event from my calendar on 8th sept"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "delete the meeting with abs"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "anje",
+            "entity": "email"
+          }
+        ],
+        "text": "remove the meeting with anje"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "cancel the meeting with abs"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "drop the meeting with abs"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 26,
+            "end": 29,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "call off the meeting with abs"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "delete the meeting on march 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 44,
+            "end": 49,
+            "value": "addbc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you delete the meeting on march 10 with addbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 45,
+            "end": 49,
+            "value": "abcd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you delete the meeting on march 10 with abcd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 46,
+            "end": 50,
+            "value": "awbc",
+            "entity": "email"
+          }
+        ],
+        "text": "would you delete the meeting on march 10 with awbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 43,
+            "end": 47,
+            "value": "abyc",
+            "entity": "email"
+          }
+        ],
+        "text": "please delete the meeting on march 10 with abyc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 39,
+            "end": 47,
+            "value": "8th Sept",
+            "entity": "date"
+          }
+        ],
+        "text": "delete the meeting from my calendar on 8th Sept"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "remove the meeting on march 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 44,
+            "end": 49,
+            "value": "addbc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you remove the meeting on march 10 with addbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 45,
+            "end": 49,
+            "value": "abcd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you remove the meeting on march 10 with abcd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 46,
+            "end": 50,
+            "value": "awbc",
+            "entity": "email"
+          }
+        ],
+        "text": "would you remove the meeting on march 10 with awbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 43,
+            "end": 47,
+            "value": "abyc",
+            "entity": "email"
+          }
+        ],
+        "text": "please remove the meeting on march 10 with abyc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 39,
+            "end": 47,
+            "value": "8th Sept",
+            "entity": "date"
+          }
+        ],
+        "text": "remove the meeting from my calendar on 8th Sept"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 38,
+            "end": 41,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "call off the meeting on march 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 46,
+            "end": 51,
+            "value": "addbc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you call off the meeting on march 10 with addbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 41,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 47,
+            "end": 51,
+            "value": "abcd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you call off the meeting on march 10 with abcd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 48,
+            "end": 53,
+            "value": "awybc",
+            "entity": "email"
+          }
+        ],
+        "text": "would you call off the meeting on march 10 with awybc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 45,
+            "end": 50,
+            "value": "abyyc",
+            "entity": "email"
+          }
+        ],
+        "text": "please call off the meeting on march 10 with abyyc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "8th Oct",
+            "entity": "date"
+          }
+        ],
+        "text": "call off the meeting from my calendar on 8th Oct"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "cancel the meeting on march 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "adydbc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you cancel the meeting on march 10 with adydbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 45,
+            "end": 50,
+            "value": "abycd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you cancel the meeting on march 10 with abycd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "june 11",
+            "entity": "date"
+          },
+          {
+            "start": 45,
+            "end": 50,
+            "value": "awrbc",
+            "entity": "email"
+          }
+        ],
+        "text": "would you cancel the meeting on june 11 with awrbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "july 1",
+            "entity": "date"
+          },
+          {
+            "start": 41,
+            "end": 46,
+            "value": "abryc",
+            "entity": "email"
+          }
+        ],
+        "text": "please cancel the meeting on july 1 with abryc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 39,
+            "end": 48,
+            "value": "18th Sept",
+            "entity": "date"
+          }
+        ],
+        "text": "cancel the meeting from my calendar on 18th Sept"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "feb 10",
+            "entity": "date"
+          },
+          {
+            "start": 32,
+            "end": 35,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "drop the meeting on feb 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "Jan 10",
+            "entity": "date"
+          },
+          {
+            "start": 40,
+            "end": 48,
+            "value": "addrrrbc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you drop the meeting on Jan 10 with addrrrbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "march 4",
+            "entity": "date"
+          },
+          {
+            "start": 42,
+            "end": 47,
+            "value": "abwcd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you drop the meeting on march 4 with abwcd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "march 30",
+            "entity": "date"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "awb45c",
+            "entity": "email"
+          }
+        ],
+        "text": "would you drop the meeting on march 30 with awb45c from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 41,
+            "end": 49,
+            "value": "abysdfsc",
+            "entity": "email"
+          }
+        ],
+        "text": "please drop the meeting on march 10 with abysdfsc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 37,
+            "end": 45,
+            "value": "8th Sept",
+            "entity": "date"
+          }
+        ],
+        "text": "drop the meeting from my calendar on 8th Sept"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "delete the appointment with abs"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "anje",
+            "entity": "email"
+          }
+        ],
+        "text": "remove the appointment with anje"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "cancel the appointment with abs"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 26,
+            "end": 29,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "drop the appointment with abs"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 30,
+            "end": 33,
+            "value": "abs",
+            "entity": "email"
+          }
+        ],
+        "text": "call off the appointment with abs"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "delete the appointment on march 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 48,
+            "end": 53,
+            "value": "addbc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you delete the appointment on march 10 with addbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 49,
+            "end": 53,
+            "value": "abcd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you delete the appointment on march 10 with abcd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 36,
+            "end": 44,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 50,
+            "end": 54,
+            "value": "awbc",
+            "entity": "email"
+          }
+        ],
+        "text": "would you delete the appointment on march 10 with awbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 41,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 47,
+            "end": 51,
+            "value": "abyc",
+            "entity": "email"
+          }
+        ],
+        "text": "please delete the appointment on march 10 with abyc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 43,
+            "end": 51,
+            "value": "8th Sept",
+            "entity": "date"
+          }
+        ],
+        "text": "delete the appointment from my calendar on 8th Sept"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "remove the appointment on march 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 48,
+            "end": 53,
+            "value": "addbc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you remove the appointment on march 10 with addbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 49,
+            "end": 53,
+            "value": "abcd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you remove the appointment on march 10 with abcd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 36,
+            "end": 44,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 50,
+            "end": 54,
+            "value": "awbc",
+            "entity": "email"
+          }
+        ],
+        "text": "would you remove the appointment on march 10 with awbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 41,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 47,
+            "end": 51,
+            "value": "abyc",
+            "entity": "email"
+          }
+        ],
+        "text": "please remove the appointment on march 10 with abyc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 43,
+            "end": 51,
+            "value": "8th Sept",
+            "entity": "date"
+          }
+        ],
+        "text": "remove the appointment from my calendar on 8th Sept"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 42,
+            "end": 45,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "call off the appointment on march 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 36,
+            "end": 44,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 50,
+            "end": 55,
+            "value": "addbc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you call off the appointment on march 10 with addbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 37,
+            "end": 45,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 51,
+            "end": 55,
+            "value": "abcd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you call off the appointment on march 10 with abcd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 38,
+            "end": 46,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 52,
+            "end": 57,
+            "value": "awybc",
+            "entity": "email"
+          }
+        ],
+        "text": "would you call off the appointment on march 10 with awybc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 49,
+            "end": 54,
+            "value": "abyyc",
+            "entity": "email"
+          }
+        ],
+        "text": "please call off the appointment on march 10 with abyyc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 45,
+            "end": 53,
+            "value": "18th Oct",
+            "entity": "date"
+          }
+        ],
+        "text": "call off the appointment from my calendar on 18th Oct"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "cancel the appointment on march 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 48,
+            "end": 54,
+            "value": "adydbc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you cancel the appointment on march 10 with adydbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 49,
+            "end": 54,
+            "value": "abycd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you cancel the appointment on march 10 with abycd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "june 11",
+            "entity": "date"
+          },
+          {
+            "start": 49,
+            "end": 54,
+            "value": "awrbc",
+            "entity": "email"
+          }
+        ],
+        "text": "would you cancel the appointment on june 11 with awrbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "july 1",
+            "entity": "date"
+          },
+          {
+            "start": 45,
+            "end": 50,
+            "value": "abryc",
+            "entity": "email"
+          }
+        ],
+        "text": "please cancel the appointment on july 1 with abryc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 43,
+            "end": 52,
+            "value": "18th Sept",
+            "entity": "date"
+          }
+        ],
+        "text": "cancel the appointment from my calendar on 18th Sept"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "feb 10",
+            "entity": "date"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "abc",
+            "entity": "email"
+          }
+        ],
+        "text": "drop the appointment on feb 10 with abc"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 32,
+            "end": 38,
+            "value": "Jan 10",
+            "entity": "date"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "value": "addrrrbc",
+            "entity": "email"
+          }
+        ],
+        "text": "can you drop the appointment on Jan 10 with addrrrbc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 33,
+            "end": 40,
+            "value": "march 4",
+            "entity": "date"
+          },
+          {
+            "start": 46,
+            "end": 51,
+            "value": "abwcd",
+            "entity": "email"
+          }
+        ],
+        "text": "will you drop the appointment on march 4 with abwcd from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "march 30",
+            "entity": "date"
+          },
+          {
+            "start": 48,
+            "end": 54,
+            "value": "awb45c",
+            "entity": "email"
+          }
+        ],
+        "text": "would you drop the appointment on march 30 with awb45c from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "march 10",
+            "entity": "date"
+          },
+          {
+            "start": 45,
+            "end": 53,
+            "value": "abysdfsc",
+            "entity": "email"
+          }
+        ],
+        "text": "please drop the appointment on march 10 with abysdfsc from my calendar?"
+      },
+      {
+        "intent": "delete_event",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "8th Sept",
+            "entity": "date"
+          }
+        ],
+        "text": "drop the appointment from my calendar on 8th Sept"
+      },
+      {
+        "intent": "list_events",
+        "entities": [
+          {
+            "start": 23,
+            "end": 25,
+            "value": "my",
+            "entity": "email"
+          }
+        ],
+        "text": "List all the events on my"
+      },
+      {
+        "intent": "list_events",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "Show my schedule for today"
+      },
+      {
+        "intent": "list_events",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "my",
+            "entity": "email"
+          },
+          {
+            "start": 32,
+            "end": 40,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "Can you tell me my schedule for tomorrow"
+      },
+      {
+        "intent": "list_events",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "my",
+            "entity": "email"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "List all my events for today"
+      },
+      {
+        "intent": "list_events",
+        "entities": [
+          {
+            "start": 21,
+            "end": 22,
+            "value": "I",
+            "entity": "email"
+          },
+          {
+            "start": 31,
+            "end": 40,
+            "value": "4th march",
+            "entity": "date"
+          }
+        ],
+        "text": "What appointments do I have on 4th march"
+      },
+      {
+        "intent": "list_events",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "my",
+            "entity": "email"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "List my events for today."
+      },
+      {
+        "intent": "list_events",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "this week",
+            "entity": "date"
+          }
+        ],
+        "text": "Show my schedule for this week"
+      },
+      {
+        "intent": "list_events",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "next month",
+            "entity": "date"
+          }
+        ],
+        "text": "What is my schedule for next month"
+      },
+      {
+        "intent": "list_events",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "next week",
+            "entity": "date"
+          }
+        ],
+        "text": "Show my appointments for next week"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "harry",
+            "entity": "email"
+          },
+          {
+            "start": 45,
+            "end": 53,
+            "value": "tomorrow",
+            "entity": "new_date"
+          }
+        ],
+        "text": "Can you reschedule my meeting with harry for tomorrow"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "jane",
+            "entity": "email"
+          },
+          {
+            "start": 41,
+            "end": 49,
+            "value": "3rd june",
+            "entity": "date"
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "value": "4th june",
+            "entity": "new_date"
+          }
+        ],
+        "text": "reschedule my appointment with jane from 3rd june to 4th june"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "amy",
+            "entity": "email"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "6th feb",
+            "entity": "date"
+          },
+          {
+            "start": 51,
+            "end": 54,
+            "value": "3pm",
+            "entity": "old_time"
+          },
+          {
+            "start": 58,
+            "end": 62,
+            "value": "3 am",
+            "entity": "new_time"
+          }
+        ],
+        "text": "reschedule my appointment with amy on 6th feb from 3pm to 3 am"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "today’s",
+            "entity": "date"
+          },
+          {
+            "start": 32,
+            "end": 36,
+            "value": "cary",
+            "entity": "email"
+          }
+        ],
+        "text": "reschedule today’s meeting with cary to any other day."
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "tomorrow’s",
+            "entity": "date"
+          },
+          {
+            "start": 32,
+            "end": 36,
+            "value": "elsa",
+            "entity": "email"
+          }
+        ],
+        "text": "reschedule tomorrow’s date with elsa"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "harry",
+            "entity": "email"
+          },
+          {
+            "start": 40,
+            "end": 47,
+            "value": "3rd feb",
+            "entity": "date"
+          },
+          {
+            "start": 52,
+            "end": 60,
+            "value": "tomorrow",
+            "entity": "new_date"
+          }
+        ],
+        "text": "Can you update my meeting with harry on 3rd feb for tomorrow"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "jane",
+            "entity": "email"
+          },
+          {
+            "start": 37,
+            "end": 45,
+            "value": "3rd june",
+            "entity": "date"
+          },
+          {
+            "start": 49,
+            "end": 57,
+            "value": "4th june",
+            "entity": "new_date"
+          }
+        ],
+        "text": "update my appointment with jane from 3rd june to 4th june"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "amy",
+            "entity": "email"
+          },
+          {
+            "start": 34,
+            "end": 41,
+            "value": "6th feb",
+            "entity": "date"
+          },
+          {
+            "start": 47,
+            "end": 50,
+            "value": "3pm",
+            "entity": "old_time"
+          },
+          {
+            "start": 54,
+            "end": 58,
+            "value": "3 am",
+            "entity": "new_time"
+          }
+        ],
+        "text": "update my appointment with amy on 6th feb from 3pm to 3 am"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "today’s",
+            "entity": "date"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "cary",
+            "entity": "email"
+          }
+        ],
+        "text": "update today’s meeting with cary to any other day."
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "tomorrow’s",
+            "entity": "date"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "elsya",
+            "entity": "email"
+          }
+        ],
+        "text": "update tomorrow’s date with elsya"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "carl",
+            "entity": "email"
+          },
+          {
+            "start": 31,
+            "end": 38,
+            "value": "3rd feb",
+            "entity": "date"
+          },
+          {
+            "start": 42,
+            "end": 49,
+            "value": "6th feb",
+            "entity": "new_date"
+          }
+        ],
+        "text": "move my meeting with carl from 3rd feb to 6th feb"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "tomorrow’s",
+            "entity": "date"
+          },
+          {
+            "start": 33,
+            "end": 37,
+            "value": "sara",
+            "entity": "email"
+          }
+        ],
+        "text": "move tomorrow’s appointment with sara"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "jane",
+            "entity": "email"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "3rd june",
+            "entity": "date"
+          },
+          {
+            "start": 45,
+            "end": 53,
+            "value": "4th june",
+            "entity": "new_date"
+          }
+        ],
+        "text": "update my meeting with jane from 3rd june to 4th june"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "amy",
+            "entity": "email"
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": "6th feb",
+            "entity": "date"
+          },
+          {
+            "start": 43,
+            "end": 46,
+            "value": "3pm",
+            "entity": "old_time"
+          },
+          {
+            "start": 50,
+            "end": 54,
+            "value": "3 am",
+            "entity": "new_time"
+          }
+        ],
+        "text": "update my meeting with amy on 6th feb from 3pm to 3 am"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "today’s",
+            "entity": "date"
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "cary",
+            "entity": "email"
+          }
+        ],
+        "text": "update today’s event with cary to any other day."
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "carl",
+            "entity": "email"
+          },
+          {
+            "start": 28,
+            "end": 35,
+            "value": "3rd feb",
+            "entity": "date"
+          },
+          {
+            "start": 39,
+            "end": 46,
+            "value": "6th feb",
+            "entity": "new_date"
+          }
+        ],
+        "text": "move my date with carl from 3rd feb to 6th feb"
+      },
+      {
+        "intent": "update_event",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "tomorrow’s",
+            "entity": "date"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "sara",
+            "entity": "email"
+          }
+        ],
+        "text": "move tomorrow’s meeting with sara"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey kawaii"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello kawaii"
+      },
+      {
+        "intent": "greet",
+        "text": "hi kawaii"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Yo"
+      },
+      {
+        "intent": "greet",
+        "text": "yo kawaii"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "I am good, how are you doing?"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "I'm fine, how are you?"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "I'm good, how are you?"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I am doing great"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm doing great"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm fine"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm good"
+      },
+      {
+        "intent": "thanks",
+        "text": "No Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "no thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "nevermind thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "say_bye",
+        "text": "Bye"
+      },
+      {
+        "intent": "say_bye",
+        "text": "Bbye"
+      },
+      {
+        "intent": "say_bye",
+        "text": "okay! Cya"
+      },
+      {
+        "intent": "say_bye",
+        "text": "Bubye"
+      },
+      {
+        "intent": "say_bye",
+        "text": "no bye"
+      },
+      {
+        "intent": "say_bye",
+        "text": "no"
+      },
+      {
+        "intent": "say_bye",
+        "text": "nope"
+      },
+      {
+        "intent": "say_bye",
+        "text": "nothing"
+      },
+      {
+        "intent": "say_bye",
+        "text": "Goodbye!"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

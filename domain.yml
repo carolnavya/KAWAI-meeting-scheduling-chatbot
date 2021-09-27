@@ -1,0 +1,93 @@
+slots:
+  email:
+    type: text
+  date:
+    type: text
+  new_date:
+    type: text
+  start_time:
+    type: text
+  end_time:
+    type: text
+  old_time:
+    type: text
+  new_time:
+    type: text
+  duration:
+    type: text
+  summary:
+    type: text
+  description:
+    type: text
+  location:
+    type: text
+
+entities:
+- email
+- date
+- new_date
+- start_time
+- end_time
+- old_time
+- new_time
+- summary
+- description
+- duration
+- location
+
+templates:
+  utter_greet:
+    - text: Hey, how are you?
+    - text: Hello, How are you doing?
+  utter_reply:
+    - text: I'm doing great. Please let me know what I can do for you.
+    - text: I'm doing great. Tell me How can I help you today?
+    - text : Good! Tell me what I can do for you today?
+    - text : Good! How can I be of your service?
+  utter_help:
+    - text: How can I help you?
+    - text: Tell me How can I help you?
+    - text: Tell me what all news you would like to get.
+  utter_anything_else:
+    - text: Is there anything else I can help you with?
+    - text: Let me know if there is anything else I can help you with
+    - text: Anything else?
+  utter_ofc:
+    - text: Let me see what I can do.
+    - text: Surely, I can help you.
+  utter_bye:
+    - text: Bye and have a nice day
+    - text: Okay!Bubye and have a nice day
+    - text: Okay then have a great day!
+  utter_default:
+    - text: I am not sure what you are aiming for
+    - text: I am sorry but I am not able to get you.
+    - text: My apologies but I am not able to get you
+  utter_confirm_created:
+    - text: Event successfully created!
+    - text: Your schedule has successfully been created!
+    - text: The event has been created successfully!
+  utter_confirm_updated:
+    - text: Your schedule has successfully been updated!
+    - text: appointment updated!
+  utter_confirm_list:
+    - text: Here is the list of your events!
+    - text: here is your schedule !
+  utter_confirm_delete:
+    - text: Event successfully deleted!
+    - text: The appointment has been cancelled!
+  utter_conflict:
+    - text: There seems to be a conflict in your schedules.Please try another date.
+    - text: Your schedules are clashing. Can you try another date?
+  utter_req_loc:
+    - text: Where do you want to meet?
+    - text: Do you have a specific location in your mind?
+  utter_req_time:
+    - text: At what time should I schedule the meeting?
+    - text: Please specify the time for meeting.
+  utter_req_duration:
+    - text: How long do you want the meeting for?
+    - text: How long will the meeting last?
+  utter_Ok_wait:
+    - text: Okay. Just wait for a moment.
+    - text: Okay!

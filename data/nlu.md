@@ -1,0 +1,341 @@
+## intent:create_event
+- Can you book an event with [barcha](email) on [this thursday](date)?
+- Can you book an event with [mad](email) and [dan](email) on [next friday](date) regarding [school activities](description)
+- Can you book an event with [madw](email),[sam](email) and [sdan](email) on [next friday](date) regarding [we activities](description) for [30 minutes](duration) from [5pm](start_time)
+- Can you book an event with [carol](email) [today](date)
+- Can book a meeting [tomorrow](date) with [carol](email) for [30 minutes](duration)
+- Can you book a meeting for [45 minutes](duration) with [emma](email),[chase](email) and [harry](email) on [2nd june](date) to talk about [agenda](description)
+- Can you book a meeting for [45 minutes](duration) with [wemma](email),[fchase](email) and [pharry](email) on [23rd jan 2020](date) to discuss about [agenda](description)
+- would you book an event with [barcha](email) on [this thursday](date)?
+- would you book an event with [mad](email) and [dan](email) on [next friday](date) regarding [school activities](description)
+- would you book an event with [madw](email),[sam](email) and [sdan](email) on [next friday](date) regarding [we activities](description) for [30 minutes](duration) from [5pm](start_time)
+- would you book an event with [carol](email) [today](date)
+- would book a meeting [tomorrow](date) with [carol](email) for [30 minutes](duration)
+- would you book a meeting for [45 minutes](duration) with [emma](email),[chase](email) and [harry](email) on [2nd june](date) to talk about [agenda](description)
+- would you book a meeting for [45 minutes](duration) with [wemma](email),[fchase](email) and [pharry](email) on [23rd jan 2020](date) to discuss about [agenda](description)
+- Can you book an appointment with [barcha](email) on [this thursday](date)?
+- Can you book an appointment with [mad](email) and [dan](email) on [next friday](date) regarding [school activities](description)
+- Can you book an appointment with [madw](email),[sam](email) and [sdan](email) on [next friday](date) regarding [we activities](description) for [30 minutes](duration) from [5pm](start_time)
+- Can you book an appointment with [carol](email) [today](date)
+- Can book a meeting [tomorrow](date) with [carol](email) for [30 minutes](duration)
+- Can you book a meeting for [45 minutes](duration) with [emma](email),[chase](email) and [harry](email) on [2nd june](date) to talk about [agenda](description)
+- Can you book a meeting for [45 minutes](duration) with [wemma](email),[fchase](email) and [pharry](email) on [23rd jan 2020](date) to discuss about [agenda](description)
+- would you book an appointment with [barcha](email) on [this thursday](date)?
+- would you book an appointment with [mad](email) and [dan](email) on [next friday](date) regarding [school activities](description)
+- would you book an appointment with [madw](email),[sam](email) and [sdan](email) on [next friday](date) regarding [we activities](description) for [30 minutes](duration) from [5pm](start_time)
+- would you book an appointment with [carol](email) [today](date)
+- would book a meeting [tomorrow](date) with [carol](email) for [30 minutes](duration)
+- would you book a meeting for [45 minutes](duration) with [emma](email),[chase](email) and [harry](email) on [2nd june](date) to talk about [agenda](description)
+- would you book a meeting for [45 minutes](duration) with [wemma](email),[fchase](email) and [pharry](email) on [23rd jan 2020](date) to discuss about [agenda](description)
+- Can you schedule an event with [barcha](email) on [this thursday](date)?
+- Schedule a meeting for [35 minutes](duration) with [charles](email),[sena](email) and [puru](email) regarding [rewerw](description) on [3rd august](date)
+- Create a meeting with [abhi](email) on [5th dec](date) to talk about [hekou](description)
+- Can you schedule an event with [mad](email) and [dan](email) on [next friday](date) regarding [school activities](description)
+- Can you schedule an event with [madw](email),[sam](email) and [sdan](email) on [next friday](date) regarding [we activities](description) for [30 minutes](duration) from [5pm](start_time)
+- Can you schedule an event with [carol](email) [today](date)
+- Can schedule a meeting [tomorrow](date) with [carol](email) for [30 minutes](duration)
+- Can you schedule a meeting for [45 minutes](duration) with [emma](email),[chase](email) and [harry](email) on [2nd june](date) to talk about [agenda](description)
+- Can you schedule a meeting for [45 minutes](duration) with [wemma](email),[fchase](email) and [pharry](email) on [23rd jan 2020](date) to discuss about [agenda](description)
+- would you schedule an event with [barcha](email) on [this thursday](date)?
+- would you schedule an event with [mad](email) and [dan](email) on [next friday](date) regarding [school activities](description)
+- would you schedule an event with [madw](email),[sam](email) and [sdan](email) on [next friday](date) regarding [we activities](description) for [30 minutes](duration) from [5pm](start_time)
+- would you schedule an event with [carol](email) [today](date)
+- would schedule a meeting [tomorrow](date) with [carol](email) for [30 minutes](duration)
+- would you schedule a meeting for [45 minutes](duration) with [emma](email),[chase](email) and [harry](email) on [2nd june](date) to talk about [agenda](description)
+- would you schedule a meeting for [45 minutes](duration) with [wemma](email),[fchase](email) and [pharry](email) on [23rd jan 2020](date) to discuss about [agenda](description)
+- Can you book an event with [barcha](email) on [this thursday](date)?
+- Can you book an event with [cart](email) on [this thursday](date) at [2 am ist](start_time)?
+- Can you book an event with [sandy](email) on [this thursday](date) at [6 pm](start_time)?
+- Can you book a meeting with [potti](email) on [this thursday](date)?
+- Can you book a meeting with [priyanka](email) on [this thursday](date) at [2 am ist](start_time)?
+- Can you book a meeting with [greeshma](email) on [this thursday](date) at [6 pm](start_time)?
+- Can you book an appointment with [pissi](email) on [this thursday](date) from [2pm](start_time) to [4pm](end_time) regarding [abc](description)?
+- Can you book an appointment with [pratyusha](email) on [this thursday](date) at [2 am ist](start_time)?
+- Can you book an appointment with [taru](email) on [this thursday](date) at [6 pm](start_time)?
+- Can you schedule an event with [tarani](email) on [this thursday](date)?
+- Can you schedule an event with [shreyu](email) on [this thursday](date) at [2 am ist](start_time)?
+- Can you schedule an event with [shreya shri](email) on [this thursday](date) at [6 pm](start_time)?
+- Can you schedule a meeting with [snigdha](email) on [this thursday](date)?
+- Can you schedule a meeting with [sanjana](email) on [this thursday](date) at [2 am ist](start_time) for [45 minutes](end_time)?
+- Can you schedule a meeting with [joe](email) on [this thursday](date) at [6 pm](start_time)?
+- Can you schedule an appointment with [madhu](email) on [this thursday](date)?
+- Can you schedule an appointment with [neelima](email) on [this thursday](date) at [2 am ist](start_time)?
+- Can you schedule an appointment with [amulya](email) on [this thursday](date) at [6 pm](start_time) till [8pm](end_time)?
+- will you book an event with [vansh](email) on [this thursday](date)?
+- will you book an event with [ansh](email) on [this thursday](date) at [2 am ist](start_time)?
+- will you book an event with [saransh](email) on [this thursday](date) at [6 pm](start_time)?
+- will you book a meeting with [abby](email) on [this thursday](date)?
+- will you book a meeting with [gaby](email) on [this thursday](date) at [2 am ist](start_time)?
+- will you book a meeting with [gilmer](email) on [this thursday](date) at [6 pm](start_time)?
+- will you book an appointment with [doober](email) on [this thursday](date)?
+- will you book an appointment with [abd](email) on [this thursday](date) at [2 am ist](start_time)?
+- will you book an appointment with [aron](email) on [this thursday](date) at [6 pm](start_time)?
+- will you schedule an event with [barcha](email) on [this thursday](date)?
+- will you schedule an event with [sir](email) on [this thursday](date) at [2 am ist](start_time)?
+- will you schedule an event with [carol](email) on [this thursday](date) at [6 pm](start_time)?
+- will you schedule a meeting with [abd](email) on [this thursday](date)?
+- will you schedule a meeting with [hershey](email) on [this thursday](date) at [2 am ist](start_time)?
+- will you schedule a meeting with [barcha](email) on [this thursday](date) at [6 pm](start_time)?
+- will you schedule an appointment with [melody](email) on [this thursday](date)?
+- will you schedule an appointment with [sir](email) on [this thursday](date) at [2 am ist](start_time)?
+- will you schedule an appointment with [aron](email) on [this thursday](date) at [6 pm](start_time)?
+- add book an event with [carol](email) on [this thursday](date)
+- add book an event with [sir](email) on [this thursday](date) at [2 am ist](start_time)
+- add book an event with [aron](email) on [this thursday](date) at [6 pm](start_time)
+- add book a meeting with [sir](email) on [this thursday](date)
+- add book a meeting with [abd](email) on [this thursday](date) at [2 am ist](start_time)
+- add book a meeting with [sir](email) on [this thursday](date) at [6 pm](start_time)
+- add book an appointment with [aron](email) on [this thursday](date)
+- add book an appointment with [barcha](email) on [this thursday](date) at [2 am ist](start_time)
+- add book an appointment with [hershey](email) on [this thursday](date) at [6 pm](start_time)
+- add schedule an event with [hershey](email) on [this thursday](date)
+- add schedule an event with [sir](email) on [this thursday](date) at [2 am ist](start_time)
+- add schedule an event with [abd](email) on [this thursday](date) at [6 pm](start_time)?
+- add schedule a meeting with [aron](email) on [this thursday](date)
+- add schedule a meeting with [carol](email) on [this thursday](date) at [2 am ist](start_time)
+- add schedule a meeting with [barcha](email) on [this thursday](date) at [6 pm](start_time)
+- add schedule an appointment with [carol](email) on [this thursday](date)
+- add schedule an appointment with [hershey](email) on [this thursday](date) at [2 am ist](start_time)
+- add schedule an appointment with [aron](email) on [this thursday](date) at [6 pm](start_time)
+- set book an event with [sir](email) on [this thursday](date)
+- set book an event with [abd](email) on [this thursday](date) at [2 am ist](start_time)
+- set book an event with [hershey](email) on [this thursday](date) at [6 pm](start_time)
+- set book a meeting with [barcha](email) on [this thursday](date)
+- set book a meeting with [carol](email) on [this thursday](date) at [2 am ist](start_time)
+- set book a meeting with [sir](email) on [this thursday](date) at [6 pm](start_time)
+- set book an appointment with [melody](email) on [this thursday](date)
+- set book an appointment with [carol](email) on [this thursday](date) at [2 am ist](start_time)
+- set book an appointment with [aron](email) on [this thursday](date) at [6 pm](start_time)
+- set schedule an event with [abd](email) on [this thursday](date)
+- set schedule an event with [sir](email) on [this thursday](date) at [2 am ist](start_time)
+- set schedule an event with [carol](email) on [this thursday](date) at [6 pm](start_time)?
+- set schedule a meeting with [barcha](email) on [this thursday](date)
+- set schedule a meeting with [carol](email) on [this thursday](date) at [2 am ist](start_time)
+- set schedule a meeting with [melody](email) on [this thursday](date) at [6 pm](start_time)
+- set schedule an appointment with [carol](email) on [this thursday](date)
+- set schedule an appointment with [abd](email) on [this thursday](date) at [2 am ist](start_time)
+- set schedule an appointment with [barcha](email) on [this thursday](date) at [6 pm](start_time)
+- set an appointment for [30 minutes](start_time) with [anju](email) on [4 feb](date)
+- create book an event with [aron](email) on [this thursday](date)
+- create book an event with [carol](email) on [this thursday](date) at [2 am ist](start_time)
+- create book an event with [hershey](email) on [this thursday](date) at [6 pm](start_time)
+- create book a meeting with [barcha](email) on [this thursday](date)
+- create book a meeting with [abd](email) on [this thursday](date) at [2 am ist](start_time)
+- create book a meeting with [carol](email) on [this thursday](date) at [6 pm](start_time)
+- create book an appointment with [sir](email) on [this thursday](date)
+- create book an appointment with [aron](email) on [this thursday](date) at [2 am ist](start_time)
+- create book an appointment with [carol](email) on [this thursday](date) at [6 pm](start_time)
+- create schedule an event with [melody](email) on [this thursday](date)
+- create schedule an event with [barcha](email) on [this thursday](date) at [2 am ist](start_time)
+- create an event with [abd](email) on [this thursday](date) at [6 pm](start_time)?
+- create schedule a meeting with [hershey](email) on [this thursday](date)
+- create schedule a meeting with [aron](email) on [this thursday](date) at [2 am ist](start_time)
+- create schedule a meeting with [aron](email) on [this thursday](date) at [6 pm](start_time)
+- create schedule an appointment with [sir](email) on [this thursday](date)
+- create schedule an appointment with [barcha](email) on [this thursday](date) at [2 am ist](start_time)
+- create schedule an appointment with [abd](email) on [this thursday](date) at [6 pm](start_time)
+- create an appointment for [30 minutes](start_time) with [anju](email) on [4 feb](date)
+- book a meeting with [anje](email)
+- schedule a meeting with [abs](email)
+- create a meeting with [abs](email)
+- add a meeting with [abs](email)
+- book an appointment with [anje](email)
+- schedule an appointment with [abs](email)
+- create an appointment with [abs](email)
+- add an event with [abs](email)
+- book an event with [anje](email)
+- schedule an event with [abs](email)
+- create an event with [abs](email)
+- add an event with [abs](email)
+- add an event with [amogha](email) to talk about [heres der](description)
+Is [abc](email) free on [3rd february](date) if so arrange a meeting with her.
+-Could we meet on[4th may](date) at [5pm](start_time) regarding [businesss talks](description).
+-Would [abc](email) be free on[2nd september](date) at [8pm](start_time) for a party.
+-Set an appointment for [drivers license](description) with [zain](email) on [march 27](date) at [6am] (start_time).
+-Organise an meeting with [abc](email) on (date time) regarding [adding new rules](description).
+-Organise an meeting with [abc](email) on [4th april](date) at [9pm](start_time) regarding [adding new rules](description).
+-Arrange an meeting with [kiki](email) on [8th november](date).
+-Can [abc](email) attend a meeting on [6th july](date) at [7pm](start_time).
+-Arrange an appointment with [kikki](email)on [6th november](date).
+-Arrange an schedule with[abc](email) on [6th july](date) at [5am](start_time).
+-Arrange an event with [abc](email) on(date time).
+-Is [abc](email) free on [6th july](date) if so schedule a meeting with her.
+-Is [abc] (email)free on [may 7](date) if so set a meeting with her.
+-Is [abc](email) free on [dec 9](date) if so arrange a appointment with her.
+-Set an event for [drivers license](description) on [6th july](date) with [niall](email).
+-Need an event with[abc](email) on [june 26](date) at [4pm](start_time).
+-Need an appointment with[abc](email) on [june 16](date) at [3:30pm](start_time).
+-Need an schedule with[abc](email) on [october 8](date) at [8am](start_time).
+-Need an meeting with[abc](email) on [november 15](date) at [7pm](start_time).
+-Is [abc](email) free on [march 17](date) if so add a appointment with her.
+-Is [abc] (email)free on [may 13](date) if so add a meeting with her.
+-Is [abc](email) free on [august 24](date) if so add a schedule with her.
+## intent:delete_event
+- delete the event with [abs](email)
+- remove the event with [anje](email)
+- cancel the event with [abs](email)
+- drop the event with [abs](email)
+- call off the event with [abs](email)
+- delete the event on [march 10](date) with [abc](email)
+- can you delete the event on [march 10](date) with [addbc](email) from my calendar?
+- will you delete the event on [march 10](date) with [abcd](email) from my calendar?
+- would you delete the event on [march 10](date) with [awbc](email) from my calendar?
+- please delete the event on [march 10](date) with [abyc](email) from my calendar?
+- delete the event from my calendar on [8th sept](date)
+- remove the event on [march 10](date) with [abc](email)
+- can you remove the event on [march 10](date) with [ad bc](email) from my calendar?
+- will you remove the event on [march 10](date) with [abcd](email) from my calendar?
+- would you remove the event on [march 10](date) with [awbc](email) from my calendar?
+- please remove the event on [march 10](date) with [abyc](email) from my calendar?
+- remove the event from my calendar on [8th Sept](date)
+- call off the event on [march 10](date) with [abc](email)
+- can you call off the event on [march 10](date) with [ad bc](email) from my calendar?
+- will you call off the event on [march 10](date) with [abcd](email) from my calendar?
+- would you call off the event on [march 10](date) with [wybc](email) from my calendar?
+- please call off the event on [march 10](date) with [abyyc](email) from my calendar?
+- call off the event from my calendar on [8th oct](date)
+- cancel the event on [march 10](date) with [abc](email)
+- can you cancel the event on [march 10](date) with [adyd bc](email) from my calendar?
+- will you cancel the event on [march 10](date) with [abycd](email) from my calendar?
+- would you cancel the event on [june 11](date) with [aw rbc](email) from my calendar?
+- please cancel the event on [july 1](date) with [abryc](email) from my calendar?
+- cancel the event from my calendar on [18th sept](date)
+- drop the event on [feb 10](date) with [abc](email)
+- can you drop the event on [jan 10](date) with [addrrrbc](email) from my calendar?
+- will you drop the event on [march 4](date) with [abcd](email) from my calendar?
+- would you drop the event on [march 30](date) with [awb45c](email) from my calendar?
+- please drop the event on [march 10](date) with [abyss fsc](email) from my calendar?
+- drop the event from my calendar on [8th sept](date)
+- delete the meeting with [abs](email)
+- remove the meeting with [anje](email)
+- cancel the meeting with [abs](email)
+- drop the meeting with [abs](email)
+- call off the meeting with [abs](email)
+- delete the meeting on [march 10](date) with [abc](email)
+- can you delete the meeting on [march 10](date) with [addbc](email) from my calendar?
+- will you delete the meeting on [march 10](date) with [abcd](email) from my calendar?
+- would you delete the meeting on [march 10](date) with [awbc](email) from my calendar?
+- please delete the meeting on [march 10](date) with [abyc](email) from my calendar?
+- delete the meeting from my calendar on [8th Sept](date)
+- remove the meeting on [march 10](date) with [abc](email)
+- can you remove the meeting on [march 10](date) with [addbc](email) from my calendar?
+- will you remove the meeting on [march 10](date) with [abcd](email) from my calendar?
+- would you remove the meeting on [march 10](date) with [awbc](email) from my calendar?
+- please remove the meeting on [march 10](date) with [abyc](email) from my calendar?
+- remove the meeting from my calendar on [8th Sept](date)
+- call off the meeting on [march 10](date) with [abc](email)
+- can you call off the meeting on [march 10](date) with [addbc](email) from my calendar?
+- will you call off the meeting on [march 10](date) with [abcd](email) from my calendar?
+- would you call off the meeting on [march 10](date) with [awybc](email) from my calendar?
+- please call off the meeting on [march 10](date) with [abyyc](email) from my calendar?
+- call off the meeting from my calendar on [8th Oct](date)
+- cancel the meeting on [march 10](date) with [abc](email)
+- can you cancel the meeting on [march 10](date) with [adydbc](email) from my calendar?
+- will you cancel the meeting on [march 10](date) with [abycd](email) from my calendar?
+- would you cancel the meeting on [june 11](date) with [awrbc](email) from my calendar?
+- please cancel the meeting on [july 1](date) with [abryc](email) from my calendar?
+- cancel the meeting from my calendar on [18th Sept](date)
+- drop the meeting on [feb 10](date) with [abc](email)
+- can you drop the meeting on [Jan 10](date) with [addrrrbc](email) from my calendar?
+- will you drop the meeting on [march 4](date) with [abwcd](email) from my calendar?
+- would you drop the meeting on [march 30](date) with [awb45c](email) from my calendar?
+- please drop the meeting on [march 10](date) with [abysdfsc](email) from my calendar?
+- drop the meeting from my calendar on [8th Sept](date)
+- delete the appointment with [abs](email)
+- remove the appointment with [anje](email)
+- cancel the appointment with [abs](email)
+- drop the appointment with [abs](email)
+- call off the appointment with [abs](email)
+- delete the appointment on [march 10](date) with [abc](email)
+- can you delete the appointment on [march 10](date) with [addbc](email) from my calendar?
+- will you delete the appointment on [march 10](date) with [abcd](email) from my calendar?
+- would you delete the appointment on [march 10](date) with [awbc](email) from my calendar?
+- please delete the appointment on [march 10](date) with [abyc](email) from my calendar?
+- delete the appointment from my calendar on [8th Sept](date)
+- remove the appointment on [march 10](date) with [abc](email)
+- can you remove the appointment on [march 10](date) with [addbc](email) from my calendar?
+- will you remove the appointment on [march 10](date) with [abcd](email) from my calendar?
+- would you remove the appointment on [march 10](date) with [awbc](email) from my calendar?
+- please remove the appointment on [march 10](date) with [abyc](email) from my calendar?
+- remove the appointment from my calendar on [8th Sept](date)
+- call off the appointment on [march 10](date) with [abc](email)
+- can you call off the appointment on [march 10](date) with [addbc](email) from my calendar?
+- will you call off the appointment on [march 10](date) with [abcd](email) from my calendar?
+- would you call off the appointment on [march 10](date) with [awybc](email) from my calendar?
+- please call off the appointment on [march 10](date) with [abyyc](email) from my calendar?
+- call off the appointment from my calendar on [18th Oct](date)
+- cancel the appointment on [march 10](date) with [abc](email)
+- can you cancel the appointment on [march 10](date) with [adydbc](email) from my calendar?
+- will you cancel the appointment on [march 10](date) with [abycd](email) from my calendar?
+- would you cancel the appointment on [june 11](date) with [awrbc](email) from my calendar?
+- please cancel the appointment on [july 1](date) with [abryc](email) from my calendar?
+- cancel the appointment from my calendar on [18th Sept](date)
+- drop the appointment on [feb 10](date) with [abc](email)
+- can you drop the appointment on [Jan 10](date) with [addrrrbc](email) from my calendar?
+- will you drop the appointment on [march 4](date) with [abwcd](email) from my calendar?
+- would you drop the appointment on [march 30](date) with [awb45c](email) from my calendar?
+- please drop the appointment on [march 10](date) with [abysdfsc](email) from my calendar?
+- drop the appointment from my calendar on [8th Sept](date)
+## intent:list_events
+- List all the events on [my](email)
+- Show my schedule for [today](date)
+- Can you tell me [my](email) schedule for [tomorrow](date)
+- List all [my](email) events for [today](date)
+- What appointments do [I](email) have on [4th march](date)
+- List [my](email) events for [today](date).
+- Show my schedule for [this week](date)
+- What is my schedule for [next month](date)
+- Show my appointments for [next week](date)
+## intent:update_event
+- Can you reschedule my meeting with [harry](email) for [tomorrow](new_date)
+- reschedule my appointment with [jane](email) from [3rd june](date) to [4th june](new_date)
+- reschedule my appointment with [amy](email) on [6th feb](date) from [3pm](old_time) to [3 am](new_time)
+- reschedule [today’s](date) meeting with [cary](email) to any other day.
+- reschedule [tomorrow’s](date) date with [elsa](email)
+- Can you update my meeting with [harry](email) on [3rd feb](date) for [tomorrow](new_date)
+- update my appointment with [jane](email) from [3rd june](date) to [4th june](new_date)
+- update my appointment with [amy](email) on [6th feb](date) from [3pm](old_time) to [3 am](new_time)
+- update [today’s](date) meeting with [cary](email) to any other day.
+- update [tomorrow’s](date) date with [elsya](email)
+- move my meeting with [carl](email) from [3rd feb](date) to [6th feb](new_date)
+- move [tomorrow’s](date) appointment with [sara](email)
+- update my meeting with [jane](email) from [3rd june](date) to [4th june](new_date)
+- update my meeting with [amy](email) on [6th feb](date) from [3pm](old_time) to [3 am](new_time)
+- update [today’s](date) event with [cary](email) to any other day.
+- move my date with [carl](email) from [3rd feb](date) to [6th feb](new_date)
+- move [tomorrow’s](date) meeting with [sara](email)
+
+## intent:greet
+- hey
+- hey kawaii
+- hello
+- hello kawaii
+- hi kawaii
+- hi 
+- Hi
+- Yo
+- yo kawaii
+## intent:fine_ask
+- I am good, how are you doing?
+- I'm fine, how are you?
+- I'm good, how are you?
+## intent:fine_normal
+- I am doing great
+- I'm doing great
+- I'm fine
+- I'm good
+## intent:thanks
+- No Thanks
+- no thank you
+- nevermind thank you
+- Thank you so much
+## intent:say_bye
+- Bye
+- Bbye
+- okay! Cya
+- Bubye
+- no bye
+- no
+- nope
+- nothing
+- Goodbye!
